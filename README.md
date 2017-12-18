@@ -7,8 +7,8 @@ By default it assumes Gmail and uses ```--smtpserver="smtp.gmail.com:587"```. Tr
 
 Help:
 ```
-python webcam_capture_and_email.py -h
-usage: webcam_capture_and_email.py [-h] [--imgdir IMGDIR] [--toaddr TOADDR]
+python webcam_email.py -h
+usage: webcam_email.py [-h] [--imgdir IMGDIR] [--toaddr TOADDR]
                                    [--fromaddr FROMADDR] [--subject SUBJECT]
                                    [--smtpserver SMTPSERVER]
                                    [--username USERNAME] [--password PASSWORD]
